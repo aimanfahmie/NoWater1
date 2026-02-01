@@ -1,0 +1,62 @@
+/* Styling the Header */
+.header-section {
+background-color: #2913d1;
+color: white;
+padding: 20px 10%;
+text-align: center;
+display: flex; /* The Magic Line */
+justify-content: space-between; /* Pushes items to opposite ends */
+align-items: center; /* Centers items vertically */
+}
+
+/* Styling the Main Content */
+.main-content {
+ background-color: #f4f4f4;
+ padding: 50px;
+ min-height: 200px; /* Gives the middle section some height */
+ margin: 20px auto; /* Space outside; 'auto' centers the box */
+ width: 80%; /* Make the box narrower than the screen */
+ border-radius: 10px;
+}
+nav { 
+  display: flex; 
+  align-items: center; 
+} 
+ 
+nav a { 
+  color: white; 
+  text-decoration: none; 
+  margin: 0 15px; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+transition: background-color 0.3s; 
+} 
+nav a:hover { 
+background-color: #555; 
+} 
+nav a.active { 
+background-color: #555; 
+} 
+
+/* Styling the Footer */
+.footer-section {
+ background-color: #1355e4;
+ color: #888;
+ padding: 10px;
+ text-align: center;
+ font-size: 12px;
+}
+
+.cta-button {
+ background-color: #ff4757;
+ color: white;
+ padding: 10px 20px;
+ text-decoration: none;
+ border-radius: 5px;
+ transition: 0.3s; /* Makes the change smooth, not instant */
+}
+.cta-button:hover {
+ background-color: #ff6b81;
+ transform: translateY(-3px); /* Lifts the button up slightly */
+ box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
