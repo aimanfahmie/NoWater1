@@ -1,0 +1,21 @@
+{
+  "description": "Debug JS, TS, Python, Go, Dart, C/CPP, Rust, CoffeeScript, Lua",
+  "debug file": "Debug File",
+  "toast.box.reload": "Reload Now",
+  "toast.box.reload.message": "Extensions are successfully installed. Please reload VSCode to take effect.",
+  "toast.box.enable.extension": "Please enable Vscode extensions: {0}",
+  "toast.settings.downloading.extension": "Downloading extension: {0}",
+  "toast.settings.installing.extension": "Installing extension: {0}",
+  "toast.spinner.installing.nodemodule": "Installing: {0}",
+  "toast.spinner.runing": "runing: {0}",
+  "error.command": "command error: \n{0}",
+  "error.no.ts-node": "debug typescript need ts-node",
+  "error.extract.extension-1": "Cannot extract extension: {0}. {1}",
+  "error.extract.extension-2": "Cannot extract extension: {0}. Access temporary directory denied.",
+  "error.extract.extension-3": "Cannot extract extension: {0}. Extension zip file not found.",
+  "error.uninstall.extension": "Cannot uninstall extension: {0}.",
+  "error.env.platform.not.supported": "Your operating system is not supported yet.",
+  "error.env.unknown.vscode": "Cannot identify the VSCode edition.",
+
+  "config.fileDirectoryAsCwd": "Whether to use the directory of the file to be excuted as the working directory."
+}
